@@ -17,21 +17,17 @@ El primer paso antes de hacer una visualización de datos es preguntarse :
 
     🗣
 
-    ☝**¿Qué datos tengo?**
+    ☝¿Qué datos tengo?
 
-    ☝**¿Los entiendo bien?**
+    ☝¿Los entiendo bien?
 
-    ☝**¿Qué quiero obtener de ellos?**
+    ☝¿Qué quiero obtener de ellos?
 
 </aside>
 
 ### **Respondamos la primera pregunta: ¿Qué datos tengo?**
 
 Generalmente, los datos se encuentran en formato **CSV***, es decir, en tablas formadas por filas y columnas. Cada fila representa un registro donde se almacena la información.
-
-- ** aclaración*
-    
-    CSV *en realidad es **un archivo de texto** donde los valores están separados por comas (o a veces por punto y coma o tabulaciones). Luego, cuando se abre en programas como Excel, Google Sheets o Python, se visualiza como una tabla.*
     
 
 Bien, ahora que sabemos qué tipo de archivo tenemos, necesitamos poder consultarlo. Podríamos hacerlo a través de Excel, pero si nuestra idea es realizar un análisis de datos con visualización, lo mejor es tirarse directamente a la piscina…
@@ -42,7 +38,7 @@ El lenguaje más utilizado para el análisis de datos hoy en día es **Python**,
 
 Continuemos. Python no es tan 'majo' como JavaScript y no viene por defecto en nuestros ordenadores personales, así que es necesario instalarlo. Además, también deberemos instalar Jupyter Notebook.
 
-**Jupyter Notebook** es una aplicación que nos e permite crear documentos que intercalan código con texto en Markdown, lo que facilita la escritura de explicaciones y comentarios mientras trabajamos.
+**Jupyter Notebook** es una aplicación que nos permite crear documentos que intercalan código con texto en Markdown, lo que facilita la escritura de explicaciones y comentarios mientras trabajamos.
 
 Pues bien, ya han aparecido los 4 amiguitos del análisis de datos.
 
@@ -71,3 +67,8 @@ Bien ahora teniendo todo un poco más claro, tus objetivos son: instalar Pyhton 
     ```jsx
     pip install notebook
     ```
+
+
+- aclaración*
+    
+CSV *en realidad es **un archivo de texto** donde los valores están separados por comas (o a veces por punto y coma o tabulaciones). Luego, cuando se abre en programas como Excel, Google Sheets o Python, se visualiza como una tabla.*
